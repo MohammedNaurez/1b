@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHAMMED NAUREZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>My Portfolio</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="container">
+        <div class="img">
+            <img src="NAUREZ.jpeg" alt="my_pic">
+        </div>
+        <div class="container-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi, I'm Mohammed Naurez. I am in my 2nd year of BTech in CSE(FULL STACK DEVELOPMENT) .</p>
+        </div>
+            
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I’m Mohammed Naurez, a second-year B.Tech student specializing in Full Stack Development at NMAM Institute of Technology (NMAMIT), Nitte. Currently, I’m diving deep into the world of Computer Science and Engineering (CSE), focusing on building robust, scalable web applications and mastering both front-end and back-end technologies.
+
+                My coursework and hands-on projects have equipped me with a solid foundation in various programming languages, frameworks, and development tools. I'm passionate about leveraging this knowledge to solve real-world problems and create innovative solutions.
+                
+                In addition to my academic pursuits, I am actively involved in extracurricular activities and seek out opportunities to apply my skills in practical settings. Whether it’s collaborating on team projects or exploring new technologies, I’m eager to expand my expertise and contribute to exciting and impactful projects.
+                
+                Feel free to connect with me to discuss tech trends, development challenges, or potential opportunities!</p>
+        </div>
+    </section>
+    <hr>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <h3>Project 1</h3>
+                    <p>E-Commerce website.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Project 2</h3>
+                    <p>Student Data Organizer.</p>
+                </div>
+                <!-- Add more portfolio items as needed -->
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
